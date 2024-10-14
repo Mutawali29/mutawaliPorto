@@ -24,6 +24,8 @@ function App() {
               <Route path="/" element={<FeDev />} />
               <Route path="/Designer" element={<Designer />} />
               <Route path="/Editor" element={<Editor />} />
+              {/* Fallback route */}
+              <Route path="*" element={<FeDev />} /> {/* Add this here */}
             </Routes>
           </AnimatePresence>
         </div>
