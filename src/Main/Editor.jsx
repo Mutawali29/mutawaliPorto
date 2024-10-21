@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import image from "../assets/Editor.png";
 import { motion } from "framer-motion";
-import VidHome from "../pages/videoPage/VidHome"; // Nama file dan komponen diubah menjadi huruf kapital
+import VidHome from "../pages/videoPage/vidHome"; // Nama file dan komponen diubah menjadi huruf kapital
 
 const textAnim = {
     hidden: { opacity: 0, y: -100 },
