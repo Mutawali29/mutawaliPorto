@@ -12,7 +12,7 @@ const Cv = ({ onClose }) => {
             margin: 0.5,
             filename: 'Qusay_Mutawali_CV.pdf',
             image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { scale: 2 }, // Improves quality
+            html2canvas: { scale: 2 }, 
             jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
         };
 

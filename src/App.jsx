@@ -18,7 +18,7 @@ function App() {
         <Navbar />
 
         {/* Navigation  */}
-        <div className="relative">
+        <div className="relative bg-black">
           <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<FeDev />} />
@@ -31,7 +31,7 @@ function App() {
         </div>
 
         {/* Active marker  */}
-        <div className="flex justify-center space-x-4">
+        <div className="flex justify-center space-x-4 bg-black">
           <NavLink 
             to="/"
             className={({ isActive }) => 
