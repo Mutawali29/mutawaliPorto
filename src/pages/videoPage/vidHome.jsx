@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import Software from "./Software";
+import Project from "./ProjectV";
 import { motion } from "framer-motion";
 
 const pageAnima = {
@@ -20,6 +21,7 @@ const VidHome = () => {
             >
                 <Home />
                 <Software />
+                <Project />
             </motion.div>
         </>
     );
