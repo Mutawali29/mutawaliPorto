@@ -1,6 +1,7 @@
 import React from "react";
 import Homed from "./Homed";
 import Statement from "./Statement";
+import DesignProject from "./designProject";
 import { motion } from "framer-motion";
 
 const pageAnima = {
@@ -20,6 +21,7 @@ const deHome = () => {
             >
                 <Homed />
                 <Statement />
+                <DesignProject />
             </motion.div>
         </>
     )
